@@ -1,0 +1,20 @@
+# For Mac
+.DS_Store
+
+# For IntelliJ
+/.idea/
+*.iml
+/.gradle/
+/**/build/
+/**/target/
+
+# For Eclipse
+.settings
+.project
+.factorypath
+.classpath
+
+logs
+*.log
+/target/
+C:
