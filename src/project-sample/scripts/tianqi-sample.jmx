@@ -21,7 +21,7 @@
         <stringProp name="ThreadGroup.num_threads">${__P(threadNum,10)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${__P(rampUp,1)}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">${__P(elapsed,600)}</stringProp>
+        <stringProp name="ThreadGroup.duration">${__P(elapsed,300)}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
@@ -98,7 +98,7 @@
               </elementProp>
               <elementProp name="influxdbUrl" elementType="Argument">
                 <stringProp name="Argument.name">influxdbUrl</stringProp>
-                <stringProp name="Argument.value">http://192.168.137.4:8086/write?db=jmeterdb</stringProp>
+                <stringProp name="Argument.value">http://192.168.137.1:8086/write?db=jmeterdb</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="application" elementType="Argument">
